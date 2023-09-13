@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix | Arcane sorozat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo" alt="logo"><img src="./Netflix/logo.png"></a>
+        <ul class="navigation">
+            <li><a href="#">Főoldal</a></li>
+            <li><a href="#">Sorozatok</a></li>
+            <li><a href="#">Filmek</a></li>
+            <li><a href="#">Újdonságok</a></li>
+            <li><a href="#">Kedvencek</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Keresés">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="./Netflix/arcane.jpg" alt="arcane background picture" class="bg">
+   
+    <div class="content">
+        <img src="./Netflix/name.png" alt="Netflix" class="seriesTitle">
+        <h4>
+            <span>2021</span>
+            <span><i>16+</i></span>
+            <span>1 évad</span>
+            <span>Akció</span>
+        </h4>
+        <p>
+            Kiéleződik a testvérvárosok, Piltover és Zaun közötti viszály. A mágikus technológiák és egymásnak feszülő nézetek háborújában két nővér a szemben álló oldalakon harcol.
+            Szereplők:Hailee Steinfeld,Katie Leung,Kevin Alejandro
+            Alkotók:Christian Linke,Alex Yee
+        </p>
+        <div class="buttons">
+            <a href="#"> <i class="fa-solid fa-play" aria-hidden="true"></i>Lejátszás</a>
+            <a href="#">  <i class="fa-solid fa-plus" aria-hidden="true"></i>Kedvencek</a>        
+        </div>
+    </div>
+    <a class="play"  onclick="toggleVideo();"><img  src="./Netflix/play-button.png">Előzetes</a>
+</div>
+
+<div class="trailer">
+    <video src="./trailer.mp4" id ="myVideo" controls="true"></video>
+    <img src="./Netflix/close.png" alt="close img"  class="close" onclick="toggleVideo();" >
+</div>
+<script src="javascript.js"></script>
+
+</body>
+</html>
